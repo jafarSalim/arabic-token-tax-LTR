@@ -1,0 +1,884 @@
+{
+ "tokenizers": [
+  {
+   "name": "GPT-2",
+   "year": 2019,
+   "vocab": 50256
+  },
+  {
+   "name": "Whisper multilingual",
+   "year": 2022,
+   "vocab": 50257
+  },
+  {
+   "name": "Gemma",
+   "year": 2024,
+   "vocab": 256000
+  },
+  {
+   "name": "Llama 3",
+   "year": 2024,
+   "vocab": 128000
+  },
+  {
+   "name": "Mistral Tekken",
+   "year": 2024,
+   "vocab": 130072
+  },
+  {
+   "name": "Gemma 3",
+   "year": 2025,
+   "vocab": 262144
+  },
+  {
+   "name": "Llama 4",
+   "year": 2025,
+   "vocab": 200000
+  }
+ ],
+ "languages": [
+  "English",
+  "Arabic",
+  "Kurdish (Sorani)",
+  "Persian",
+  "Urdu",
+  "Hebrew",
+  "Turkish",
+  "French",
+  "Spanish",
+  "German",
+  "Portuguese",
+  "Italian",
+  "Indonesian",
+  "Swahili",
+  "Vietnamese",
+  "Russian",
+  "Greek",
+  "Hindi",
+  "Bengali",
+  "Thai",
+  "Amharic",
+  "Chinese",
+  "Japanese",
+  "Korean"
+ ],
+ "tokens": {
+  "English": {
+   "GPT-2": 1943,
+   "Whisper multilingual": 1991,
+   "Gemma": 1978,
+   "Llama 3": 1975,
+   "Mistral Tekken": 2016,
+   "Gemma 3": 1980,
+   "Llama 4": 1981
+  },
+  "Arabic": {
+   "GPT-2": 7574,
+   "Whisper multilingual": 4002,
+   "Gemma": 2567,
+   "Llama 3": 2826,
+   "Mistral Tekken": 2168,
+   "Gemma 3": 2527,
+   "Llama 4": 2656
+  },
+  "Kurdish (Sorani)": {
+   "GPT-2": 4579,
+   "Whisper multilingual": 4174,
+   "Gemma": 3692,
+   "Llama 3": 4091,
+   "Mistral Tekken": 3841,
+   "Gemma 3": 3657,
+   "Llama 4": 3669
+  },
+  "Persian": {
+   "GPT-2": 10243,
+   "Whisper multilingual": 5920,
+   "Gemma": 2792,
+   "Llama 3": 2901,
+   "Mistral Tekken": 2736,
+   "Gemma 3": 2740,
+   "Llama 4": 2808
+  },
+  "Urdu": {
+   "GPT-2": 13200,
+   "Whisper multilingual": 6184,
+   "Gemma": 3801,
+   "Llama 3": 6068,
+   "Mistral Tekken": 3623,
+   "Gemma 3": 3130,
+   "Llama 4": 3841
+  },
+  "Hebrew": {
+   "GPT-2": 8469,
+   "Whisper multilingual": 4163,
+   "Gemma": 3041,
+   "Llama 3": 7072,
+   "Mistral Tekken": 3146,
+   "Gemma 3": 3376,
+   "Llama 4": 3330
+  },
+  "Turkish": {
+   "GPT-2": 4906,
+   "Whisper multilingual": 3373,
+   "Gemma": 2963,
+   "Llama 3": 2849,
+   "Mistral Tekken": 3201,
+   "Gemma 3": 2859,
+   "Llama 4": 2735
+  },
+  "French": {
+   "GPT-2": 3921,
+   "Whisper multilingual": 3200,
+   "Gemma": 2618,
+   "Llama 3": 3085,
+   "Mistral Tekken": 2628,
+   "Gemma 3": 2672,
+   "Llama 4": 2604
+  },
+  "Spanish": {
+   "GPT-2": 3962,
+   "Whisper multilingual": 2943,
+   "Gemma": 2405,
+   "Llama 3": 2942,
+   "Mistral Tekken": 2581,
+   "Gemma 3": 2443,
+   "Llama 4": 2406
+  },
+  "German": {
+   "GPT-2": 4487,
+   "Whisper multilingual": 2946,
+   "Gemma": 2363,
+   "Llama 3": 3226,
+   "Mistral Tekken": 2547,
+   "Gemma 3": 2527,
+   "Llama 4": 2405
+  },
+  "Portuguese": {
+   "GPT-2": 3996,
+   "Whisper multilingual": 2914,
+   "Gemma": 2416,
+   "Llama 3": 2997,
+   "Mistral Tekken": 2565,
+   "Gemma 3": 2420,
+   "Llama 4": 2348
+  },
+  "Italian": {
+   "GPT-2": 4446,
+   "Whisper multilingual": 3599,
+   "Gemma": 2720,
+   "Llama 3": 3488,
+   "Mistral Tekken": 2914,
+   "Gemma 3": 2746,
+   "Llama 4": 2666
+  },
+  "Indonesian": {
+   "GPT-2": 4728,
+   "Whisper multilingual": 3933,
+   "Gemma": 2582,
+   "Llama 3": 3737,
+   "Mistral Tekken": 3148,
+   "Gemma 3": 2688,
+   "Llama 4": 2538
+  },
+  "Swahili": {
+   "GPT-2": 4352,
+   "Whisper multilingual": 4158,
+   "Gemma": 3352,
+   "Llama 3": 4063,
+   "Mistral Tekken": 3924,
+   "Gemma 3": 3379,
+   "Llama 4": 3536
+  },
+  "Vietnamese": {
+   "GPT-2": 10616,
+   "Whisper multilingual": 4304,
+   "Gemma": 2895,
+   "Llama 3": 2887,
+   "Mistral Tekken": 2981,
+   "Gemma 3": 2864,
+   "Llama 4": 2801
+  },
+  "Russian": {
+   "GPT-2": 12787,
+   "Whisper multilingual": 3526,
+   "Gemma": 2741,
+   "Llama 3": 3225,
+   "Mistral Tekken": 3030,
+   "Gemma 3": 2675,
+   "Llama 4": 2342
+  },
+  "Greek": {
+   "GPT-2": 14073,
+   "Whisper multilingual": 6558,
+   "Gemma": 4726,
+   "Llama 3": 4642,
+   "Mistral Tekken": 4669,
+   "Gemma 3": 4483,
+   "Llama 4": 4223
+  },
+  "Hindi": {
+   "GPT-2": 17835,
+   "Whisper multilingual": 12187,
+   "Gemma": 3950,
+   "Llama 3": 5906,
+   "Mistral Tekken": 3836,
+   "Gemma 3": 2712,
+   "Llama 4": 3416
+  },
+  "Bengali": {
+   "GPT-2": 19556,
+   "Whisper multilingual": 19294,
+   "Gemma": 5314,
+   "Llama 3": 11737,
+   "Mistral Tekken": 3928,
+   "Gemma 3": 2249,
+   "Llama 4": 4080
+  },
+  "Thai": {
+   "GPT-2": 18129,
+   "Whisper multilingual": 8159,
+   "Gemma": 3596,
+   "Llama 3": 4191,
+   "Mistral Tekken": 4662,
+   "Gemma 3": 3100,
+   "Llama 4": 3042
+  },
+  "Amharic": {
+   "GPT-2": 16242,
+   "Whisper multilingual": 16192,
+   "Gemma": 5525,
+   "Llama 3": 16080,
+   "Mistral Tekken": 16082,
+   "Gemma 3": 4496,
+   "Llama 4": 5233
+  },
+  "Chinese": {
+   "GPT-2": 5824,
+   "Whisper multilingual": 3437,
+   "Gemma": 2059,
+   "Llama 3": 2459,
+   "Mistral Tekken": 2651,
+   "Gemma 3": 2024,
+   "Llama 4": 1985
+  },
+  "Japanese": {
+   "GPT-2": 6533,
+   "Whisper multilingual": 4048,
+   "Gemma": 2418,
+   "Llama 3": 3050,
+   "Mistral Tekken": 3254,
+   "Gemma 3": 2379,
+   "Llama 4": 2495
+  },
+  "Korean": {
+   "GPT-2": 9867,
+   "Whisper multilingual": 3295,
+   "Gemma": 3034,
+   "Llama 3": 2700,
+   "Mistral Tekken": 2393,
+   "Gemma 3": 2537,
+   "Llama 4": 2333
+  }
+ },
+ "chars": {
+  "English": 10637,
+  "Arabic": 7645,
+  "Kurdish (Sorani)": 9219,
+  "Persian": 9057,
+  "Urdu": 10228,
+  "Hebrew": 7257,
+  "Turkish": 10278,
+  "French": 11901,
+  "Spanish": 11964,
+  "German": 11936,
+  "Portuguese": 11280,
+  "Italian": 12650,
+  "Indonesian": 12504,
+  "Swahili": 10452,
+  "Vietnamese": 11059,
+  "Russian": 11805,
+  "Greek": 12431,
+  "Hindi": 11500,
+  "Bengali": 9711,
+  "Thai": 9290,
+  "Amharic": 5496,
+  "Chinese": 2988,
+  "Japanese": 4182,
+  "Korean": 4715
+ },
+ "bytes": {
+  "English": 10649,
+  "Arabic": 13808,
+  "Kurdish (Sorani)": 10099,
+  "Persian": 16269,
+  "Urdu": 18156,
+  "Hebrew": 13041,
+  "Turkish": 11100,
+  "French": 12459,
+  "Spanish": 12172,
+  "German": 12104,
+  "Portuguese": 11677,
+  "Italian": 12736,
+  "Indonesian": 12504,
+  "Swahili": 10452,
+  "Vietnamese": 15103,
+  "Russian": 21728,
+  "Greek": 22677,
+  "Hindi": 29972,
+  "Bengali": 26173,
+  "Thai": 27070,
+  "Amharic": 16324,
+  "Chinese": 8568,
+  "Japanese": 12260,
+  "Korean": 11404
+ },
+ "words": {
+  "English": 1723,
+  "Arabic": 1314,
+  "Kurdish (Sorani)": 1644,
+  "Persian": 1860,
+  "Urdu": 2188,
+  "Hebrew": 1278,
+  "Turkish": 1334,
+  "French": 2009,
+  "Spanish": 1894,
+  "German": 1610,
+  "Portuguese": 1802,
+  "Italian": 1916,
+  "Indonesian": 1696,
+  "Swahili": 1756,
+  "Vietnamese": 2468,
+  "Russian": 1578,
+  "Greek": 1878,
+  "Hindi": 2044,
+  "Bengali": 1469,
+  "Thai": 319,
+  "Amharic": 1020,
+  "Chinese": 235,
+  "Japanese": 329,
+  "Korean": 1156
+ },
+ "parity": {
+  "English": {
+   "GPT-2": 1.0,
+   "Whisper multilingual": 1.0,
+   "Gemma": 1.0,
+   "Llama 3": 1.0,
+   "Mistral Tekken": 1.0,
+   "Gemma 3": 1.0,
+   "Llama 4": 1.0
+  },
+  "Arabic": {
+   "GPT-2": 3.8980957282552753,
+   "Whisper multilingual": 2.0100452034153693,
+   "Gemma": 1.2977755308392316,
+   "Llama 3": 1.4308860759493671,
+   "Mistral Tekken": 1.0753968253968254,
+   "Gemma 3": 1.2762626262626262,
+   "Llama 4": 1.3407370015143867
+  },
+  "Kurdish (Sorani)": {
+   "GPT-2": 2.356664951106536,
+   "Whisper multilingual": 2.0964339527875437,
+   "Gemma": 1.8665318503538928,
+   "Llama 3": 2.0713924050632913,
+   "Mistral Tekken": 1.9052579365079365,
+   "Gemma 3": 1.846969696969697,
+   "Llama 4": 1.8520949015648662
+  },
+  "Persian": {
+   "GPT-2": 5.271744724652599,
+   "Whisper multilingual": 2.9733802109492715,
+   "Gemma": 1.4115267947421637,
+   "Llama 3": 1.468860759493671,
+   "Mistral Tekken": 1.3571428571428572,
+   "Gemma 3": 1.3838383838383839,
+   "Llama 4": 1.4174659262998486
+  },
+  "Urdu": {
+   "GPT-2": 6.793618116314977,
+   "Whisper multilingual": 3.1059768960321446,
+   "Gemma": 1.9216380182002022,
+   "Llama 3": 3.0724050632911393,
+   "Mistral Tekken": 1.7971230158730158,
+   "Gemma 3": 1.5808080808080809,
+   "Llama 4": 1.9389197375063099
+  },
+  "Hebrew": {
+   "GPT-2": 4.358723623262995,
+   "Whisper multilingual": 2.090909090909091,
+   "Gemma": 1.5374115267947421,
+   "Llama 3": 3.580759493670886,
+   "Mistral Tekken": 1.560515873015873,
+   "Gemma 3": 1.7050505050505051,
+   "Llama 4": 1.6809692074709743
+  },
+  "Turkish": {
+   "GPT-2": 2.5249613998970664,
+   "Whisper multilingual": 1.6941235560020091,
+   "Gemma": 1.4979777553083924,
+   "Llama 3": 1.4425316455696202,
+   "Mistral Tekken": 1.587797619047619,
+   "Gemma 3": 1.4439393939393939,
+   "Llama 4": 1.3806158505805148
+  },
+  "French": {
+   "GPT-2": 2.018013381369017,
+   "Whisper multilingual": 1.6072325464590658,
+   "Gemma": 1.3235591506572295,
+   "Llama 3": 1.5620253164556963,
+   "Mistral Tekken": 1.3035714285714286,
+   "Gemma 3": 1.3494949494949495,
+   "Llama 4": 1.314487632508834
+  },
+  "Spanish": {
+   "GPT-2": 2.0391147709727226,
+   "Whisper multilingual": 1.4781516825715721,
+   "Gemma": 1.2158746208291202,
+   "Llama 3": 1.489620253164557,
+   "Mistral Tekken": 1.2802579365079365,
+   "Gemma 3": 1.2338383838383837,
+   "Llama 4": 1.214538112064614
+  },
+  "German": {
+   "GPT-2": 2.309315491507977,
+   "Whisper multilingual": 1.4796584630838774,
+   "Gemma": 1.1946410515672397,
+   "Llama 3": 1.6334177215189873,
+   "Mistral Tekken": 1.2633928571428572,
+   "Gemma 3": 1.2762626262626262,
+   "Llama 4": 1.2140333165068147
+  },
+  "Portuguese": {
+   "GPT-2": 2.0566134843026247,
+   "Whisper multilingual": 1.4635861376192867,
+   "Gemma": 1.2214357937310414,
+   "Llama 3": 1.5174683544303798,
+   "Mistral Tekken": 1.2723214285714286,
+   "Gemma 3": 1.2222222222222223,
+   "Llama 4": 1.1852599697122665
+  },
+  "Italian": {
+   "GPT-2": 2.2882141019042717,
+   "Whisper multilingual": 1.8076343545956806,
+   "Gemma": 1.3751263902932256,
+   "Llama 3": 1.7660759493670886,
+   "Mistral Tekken": 1.445436507936508,
+   "Gemma 3": 1.3868686868686868,
+   "Llama 4": 1.3457849570923777
+  },
+  "Indonesian": {
+   "GPT-2": 2.433350488934637,
+   "Whisper multilingual": 1.9753892516323455,
+   "Gemma": 1.3053589484327603,
+   "Llama 3": 1.8921518987341772,
+   "Mistral Tekken": 1.5615079365079365,
+   "Gemma 3": 1.3575757575757577,
+   "Llama 4": 1.2811711256940939
+  },
+  "Swahili": {
+   "GPT-2": 2.239835306227483,
+   "Whisper multilingual": 2.088397790055249,
+   "Gemma": 1.6946410515672397,
+   "Llama 3": 2.0572151898734177,
+   "Mistral Tekken": 1.9464285714285714,
+   "Gemma 3": 1.7065656565656566,
+   "Llama 4": 1.784957092377587
+  },
+  "Vietnamese": {
+   "GPT-2": 5.4637159032424085,
+   "Whisper multilingual": 2.1617277749874435,
+   "Gemma": 1.4635995955510617,
+   "Llama 3": 1.461772151898734,
+   "Mistral Tekken": 1.4786706349206349,
+   "Gemma 3": 1.4464646464646465,
+   "Llama 4": 1.413932357395255
+  },
+  "Russian": {
+   "GPT-2": 6.5810602161605765,
+   "Whisper multilingual": 1.7709693621295832,
+   "Gemma": 1.3857431749241658,
+   "Llama 3": 1.6329113924050633,
+   "Mistral Tekken": 1.5029761904761905,
+   "Gemma 3": 1.351010101010101,
+   "Llama 4": 1.182231196365472
+  },
+  "Greek": {
+   "GPT-2": 7.242923314462172,
+   "Whisper multilingual": 3.293822199899548,
+   "Gemma": 2.3892821031344793,
+   "Llama 3": 2.350379746835443,
+   "Mistral Tekken": 2.3159722222222223,
+   "Gemma 3": 2.264141414141414,
+   "Llama 4": 2.1317516405855628
+  },
+  "Hindi": {
+   "GPT-2": 9.17910447761194,
+   "Whisper multilingual": 6.121044701155198,
+   "Gemma": 1.9969666329625886,
+   "Llama 3": 2.990379746835443,
+   "Mistral Tekken": 1.9027777777777777,
+   "Gemma 3": 1.3696969696969696,
+   "Llama 4": 1.7243816254416962
+  },
+  "Bengali": {
+   "GPT-2": 10.06484817292846,
+   "Whisper multilingual": 9.69060773480663,
+   "Gemma": 2.6865520728008088,
+   "Llama 3": 5.942784810126582,
+   "Mistral Tekken": 1.9484126984126984,
+   "Gemma 3": 1.135858585858586,
+   "Llama 4": 2.059565875820293
+  },
+  "Thai": {
+   "GPT-2": 9.330416881111683,
+   "Whisper multilingual": 4.09794073329985,
+   "Gemma": 1.8179979777553084,
+   "Llama 3": 2.122025316455696,
+   "Mistral Tekken": 2.3125,
+   "Gemma 3": 1.5656565656565657,
+   "Llama 4": 1.535588086824836
+  },
+  "Amharic": {
+   "GPT-2": 8.35923829130211,
+   "Whisper multilingual": 8.132596685082873,
+   "Gemma": 2.7932254802831142,
+   "Llama 3": 8.141772151898735,
+   "Mistral Tekken": 7.9771825396825395,
+   "Gemma 3": 2.2707070707070707,
+   "Llama 4": 2.641595153962645
+  },
+  "Chinese": {
+   "GPT-2": 2.997426659804426,
+   "Whisper multilingual": 1.7262682069311903,
+   "Gemma": 1.0409504550050557,
+   "Llama 3": 1.2450632911392405,
+   "Mistral Tekken": 1.3149801587301588,
+   "Gemma 3": 1.0222222222222221,
+   "Llama 4": 1.0020191822311963
+  },
+  "Japanese": {
+   "GPT-2": 3.362326299536799,
+   "Whisper multilingual": 2.0331491712707184,
+   "Gemma": 1.2224469160768452,
+   "Llama 3": 1.5443037974683544,
+   "Mistral Tekken": 1.6140873015873016,
+   "Gemma 3": 1.2015151515151514,
+   "Llama 4": 1.259464916708733
+  },
+  "Korean": {
+   "GPT-2": 5.078229541945445,
+   "Whisper multilingual": 1.6549472626820694,
+   "Gemma": 1.5338725985844288,
+   "Llama 3": 1.3670886075949367,
+   "Mistral Tekken": 1.1870039682539681,
+   "Gemma 3": 1.2813131313131314,
+   "Llama 4": 1.1776880363452802
+  }
+ },
+ "fertility_hist": {
+  "Arabic": {
+   "GPT-2": {
+    "1": 0.0,
+    "2": 0.0213089802130898,
+    "3": 0.1445966514459665,
+    "4": 0.09817351598173515,
+    "5": 0.2374429223744292,
+    "6": 0.4984779299847793
+   },
+   "Whisper multilingual": {
+    "1": 0.20015220700152206,
+    "2": 0.16210045662100456,
+    "3": 0.2800608828006088,
+    "4": 0.24124809741248096,
+    "5": 0.08599695585996955,
+    "6": 0.030441400304414
+   },
+   "Gemma": {
+    "1": 0.4619482496194825,
+    "2": 0.3097412480974125,
+    "3": 0.1887366818873668,
+    "4": 0.03881278538812785,
+    "5": 0.0,
+    "6": 0.00076103500761035
+   },
+   "Llama 3": {
+    "1": 0.3751902587519026,
+    "2": 0.3051750380517504,
+    "3": 0.24885844748858446,
+    "4": 0.0624048706240487,
+    "5": 0.0076103500761035,
+    "6": 0.00076103500761035
+   },
+   "Mistral Tekken": {
+    "1": 0.6377473363774734,
+    "2": 0.2374429223744292,
+    "3": 0.1095890410958904,
+    "4": 0.015220700152207,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "Gemma 3": {
+    "1": 0.4756468797564688,
+    "2": 0.3105022831050228,
+    "3": 0.1765601217656012,
+    "4": 0.03576864535768645,
+    "5": 0.0015220700152207,
+    "6": 0.0
+   },
+   "Llama 4": {
+    "1": 0.4467275494672755,
+    "2": 0.2770167427701674,
+    "3": 0.21537290715372906,
+    "4": 0.0563165905631659,
+    "5": 0.0045662100456621,
+    "6": 0.0
+   }
+  },
+  "English": {
+   "GPT-2": {
+    "1": 0.9889727219965178,
+    "2": 0.00812536273940801,
+    "3": 0.002901915264074289,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "Whisper multilingual": {
+    "1": 0.9698200812536274,
+    "2": 0.0261172373766686,
+    "3": 0.0023215322112594312,
+    "4": 0.0017411491584445734,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "Gemma": {
+    "1": 0.995937318630296,
+    "2": 0.003482298316889147,
+    "3": 0.0005803830528148578,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "Llama 3": {
+    "1": 0.987811955890888,
+    "2": 0.009866511897852582,
+    "3": 0.0023215322112594312,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "Mistral Tekken": {
+    "1": 0.9785258270458502,
+    "2": 0.017411491584445733,
+    "3": 0.004062681369704005,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "Gemma 3": {
+    "1": 0.9953569355774812,
+    "2": 0.003482298316889147,
+    "3": 0.0011607661056297156,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   },
+   "Llama 4": {
+    "1": 0.9843296575739988,
+    "2": 0.013929193267556587,
+    "3": 0.0017411491584445734,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0
+   }
+  }
+ },
+ "fertility": {
+  "Arabic": {
+   "GPT-2": 5.764079147640792,
+   "Whisper multilingual": 3.045662100456621,
+   "Gemma": 1.9535768645357687,
+   "Llama 3": 2.1506849315068495,
+   "Mistral Tekken": 1.6499238964992389,
+   "Gemma 3": 1.9231354642313547,
+   "Llama 4": 2.0213089802130897
+  },
+  "English": {
+   "GPT-2": 1.1276842716192688,
+   "Whisper multilingual": 1.155542658154382,
+   "Gemma": 1.1479976784677888,
+   "Llama 3": 1.146256529309344,
+   "Mistral Tekken": 1.1700522344747533,
+   "Gemma 3": 1.1491584445734184,
+   "Llama 4": 1.1497388276262333
+  },
+  "Persian": {
+   "GPT-2": 5.506989247311828,
+   "Whisper multilingual": 3.182795698924731,
+   "Gemma": 1.5010752688172042,
+   "Llama 3": 1.5596774193548386,
+   "Mistral Tekken": 1.4709677419354839,
+   "Gemma 3": 1.4731182795698925,
+   "Llama 4": 1.5096774193548388
+  },
+  "Turkish": {
+   "GPT-2": 3.6776611694152925,
+   "Whisper multilingual": 2.528485757121439,
+   "Gemma": 2.2211394302848575,
+   "Llama 3": 2.13568215892054,
+   "Mistral Tekken": 2.399550224887556,
+   "Gemma 3": 2.1431784107946026,
+   "Llama 4": 2.050224887556222
+  },
+  "Hebrew": {
+   "GPT-2": 6.626760563380282,
+   "Whisper multilingual": 3.257433489827856,
+   "Gemma": 2.3794992175273864,
+   "Llama 3": 5.533646322378717,
+   "Mistral Tekken": 2.461658841940532,
+   "Gemma 3": 2.6416275430359937,
+   "Llama 4": 2.6056338028169015
+  },
+  "Kurdish (Sorani)": {
+   "GPT-2": 2.785279805352798,
+   "Whisper multilingual": 2.5389294403892944,
+   "Gemma": 2.2457420924574207,
+   "Llama 3": 2.488442822384428,
+   "Mistral Tekken": 2.336374695863747,
+   "Gemma 3": 2.2244525547445257,
+   "Llama 4": 2.2317518248175183
+  }
+ },
+ "arabic_vocab_share": {
+  "GPT-2": 0.00043775867558102516,
+  "Whisper multilingual": 0.006904510814413912,
+  "Gemma": 0.0245078125,
+  "Llama 3": 0.029765625,
+  "Mistral Tekken": 0.07262900547389138,
+  "Gemma 3": 0.0322723388671875,
+  "Llama 4": 0.02245
+ },
+ "digits": {
+  "GPT-2": {
+   "western": 19,
+   "eastern": 88
+  },
+  "Whisper multilingual": {
+   "western": 21,
+   "eastern": 88
+  },
+  "Gemma": {
+   "western": 53,
+   "eastern": 47
+  },
+  "Llama 3": {
+   "western": 30,
+   "eastern": 56
+  },
+  "Mistral Tekken": {
+   "western": 53,
+   "eastern": 53
+  },
+  "Gemma 3": {
+   "western": 53,
+   "eastern": 46
+  },
+  "Llama 4": {
+   "western": 30,
+   "eastern": 50
+  }
+ },
+ "digits_text": {
+  "western": "7 42 2026 13579 1000000 3.14159 250000 19.99 1948 911",
+  "eastern": "٧ ٤٢ ٢٠٢٦ ١٣٥٧٩ ١٠٠٠٠٠٠ ٣٫١٤١٥٩ ٢٥٠٠٠٠ ١٩٫٩٩ ١٩٤٨ ٩١١"
+ },
+ "vocab_scripts": {
+  "GPT-2": {
+   "Latin": 0.9353112066220949,
+   "Cyrillic": 0.00035816618911174784,
+   "Arabic": 0.00037806431072906716,
+   "CJK": 0.0036214581343521172,
+   "Indic": 1.9898121617319326e-05,
+   "Other (digits, symbols, bytes)": 0.060311206622094875
+  },
+  "Whisper multilingual": {
+   "Latin": 0.8049624927870744,
+   "Cyrillic": 0.059295222556061844,
+   "Arabic": 0.0066060449290646075,
+   "CJK": 0.07610880076407267,
+   "Indic": 0.0015719203295063375,
+   "Other (digits, symbols, bytes)": 0.051455518634220106
+  },
+  "Gemma": {
+   "Latin": 0.7266484375,
+   "Cyrillic": 0.05130859375,
+   "Arabic": 0.0243203125,
+   "CJK": 0.1225703125,
+   "Indic": 0.011703125,
+   "Other (digits, symbols, bytes)": 0.06344921875
+  },
+  "Llama 3": {
+   "Latin": 0.758203125,
+   "Cyrillic": 0.0508671875,
+   "Arabic": 0.0294453125,
+   "CJK": 0.0601484375,
+   "Indic": 0.0080234375,
+   "Other (digits, symbols, bytes)": 0.0933125
+  },
+  "Mistral Tekken": {
+   "Latin": 0.679016237160957,
+   "Cyrillic": 0.05909034996002214,
+   "Arabic": 0.07226766713820038,
+   "CJK": 0.07398210222030875,
+   "Indic": 0.03987791377083461,
+   "Other (digits, symbols, bytes)": 0.0757657297496771
+  },
+  "Gemma 3": {
+   "Latin": 0.6069717407226562,
+   "Cyrillic": 0.05110931396484375,
+   "Arabic": 0.032085418701171875,
+   "CJK": 0.11021041870117188,
+   "Indic": 0.13035202026367188,
+   "Other (digits, symbols, bytes)": 0.06927108764648438
+  },
+  "Llama 4": {
+   "Latin": 0.66231,
+   "Cyrillic": 0.114155,
+   "Arabic": 0.022295,
+   "CJK": 0.09916,
+   "Indic": 0.0245,
+   "Other (digits, symbols, bytes)": 0.07758
+  }
+ },
+ "dialect": {
+  "english": {
+   "GPT-2": 99,
+   "Whisper multilingual": 99,
+   "Gemma": 99,
+   "Llama 3": 99,
+   "Mistral Tekken": 99,
+   "Gemma 3": 99,
+   "Llama 4": 99
+  },
+  "msa": {
+   "GPT-2": 345,
+   "Whisper multilingual": 175,
+   "Gemma": 123,
+   "Llama 3": 139,
+   "Mistral Tekken": 111,
+   "Gemma 3": 123,
+   "Llama 4": 131
+  },
+  "iraqi": {
+   "GPT-2": 281,
+   "Whisper multilingual": 156,
+   "Gemma": 115,
+   "Llama 3": 123,
+   "Mistral Tekken": 108,
+   "Gemma 3": 108,
+   "Llama 4": 121
+  }
+ },
+ "dialect_sentences": 12
+}

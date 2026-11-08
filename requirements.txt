@@ -1,0 +1,7 @@
+tiktoken
+sentencepiece
+mistral-common
+regex
+openpyxl
+pillow
+pytest
